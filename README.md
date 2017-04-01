@@ -6,8 +6,7 @@ The sensitivity of a test is defined as the proportion of people with disease wh
 
 ## Specificity
 
-The specificity of a test is the proportion of people without the disease who will have a negative result.
-Positive predictive:The positive predictive value (PPV) of a test is defined as the proportion of people with a positive test result who actually have the disease
+The specificity of a test is the proportion of people without the disease who will have a negative result. There is also the Positive predictive value which is defined as the proportion of people with a positive test result who actually have the disease
 
 The code in this repositories computes this on the entire image and also locally on specified regions.  
 

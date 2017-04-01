@@ -11,13 +11,18 @@ Positive predictive:The positive predictive value (PPV) of a test is defined as 
 
 The code in this repositories computes this on the entire image and also locally on specified regions.  
 
-## Usage
+## Dependencies
+Note that this program uses [MIRTK - Medical Image Registration Library](https://github.com/BioMedIA/MIRTK), an old legacy version in (IRTK)[https://wwwhomes.doc.ic.ac.uk/~rkarim/mediawiki/index.php?title=Sense_Dice_Code_Ver_2] exists but is not maintained anymore. 
+
+The dependencies are not great on MIRTK and IRTK. It is simply for accessing pixel values in the image. I envisage that the code can be easily ported into [Insight Toolkit](https://github.com/InsightSoftwareConsortium/ITK) and other imaging libraries. 
+
+## Important Notes
 Since specificity gives the proportion of negative results that have tested negative, it is important to specifcy in the program the search space for computing specificity, taking into account background pixels (i.e. the negatives in our test). Consider the case when the specificity computed on a small binary mask inside a large image yields a biased high specificity value. 
 
 For a review on sensitivity and specificity see http://umanitoba.ca/faculties/medicine/units/pediatrics/sections/neonatology/media/DiagnosticTest1.pdf.
 
 ## Usage 
-The usage for the first tool ```combinmask``` is:
+The usage for the tool ```sensspec``` is. . :
 ```
 ./mirtk evaluate-senssepc <switches>:
 		-t: Test-image

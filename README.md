@@ -6,9 +6,9 @@ The sensitivity of a test is defined as the proportion of people with disease wh
 
 ## Specificity
 
-The specificity of a test is the proportion of people without the disease who will have a negative result. There is also the Positive predictive value which is defined as the proportion of people with a positive test result who actually have the disease
+The specificity of a test is the proportion of people without the disease who will have a negative result. 
 
-The code in this repositories computes this on the entire image and also locally on specified regions.  
+The code in this repositories computes this not only on the entire image, but also locally if the sub-regions are specified using xyz limits. 
 
 ## Dependencies
 Note that this program uses [MIRTK - Medical Image Registration Library](https://github.com/BioMedIA/MIRTK), an old legacy version in [IRTK](https://wwwhomes.doc.ic.ac.uk/~rkarim/mediawiki/index.php?title=Sense_Dice_Code_Ver_2) exists but is not maintained anymore. 

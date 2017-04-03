@@ -8,7 +8,9 @@ Sensitivity measures the proportion of positives that are correctly identified a
 
 ## Specificity
 
-measures the proportion of negatives that are correctly identified as such (i.e., the percentage of healthy people who are correctly identified as not having the condition). It is also called the ```true negative rate```. 
+```Specificity``` measures the proportion of negatives that are correctly identified as such (i.e., the percentage of healthy people who are correctly identified as not having the condition). It is also called the ```true negative rate```. 
+
+## The code 
 
 The code in this repositories computes this not only on the entire image, but also locally if the sub-regions are specified using xyz limits. 
 

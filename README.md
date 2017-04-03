@@ -1,12 +1,14 @@
 # Sensitiity and Specificity Analysis for 3D Imaging Data 
 
+```Sensitivity``` and ```specificity``` are statistical measures of the performance of a binary classification classification test, also known in statistics as Statistical classification function:
+
 ## Sensitivity
 
-The sensitivity of a test is defined as the proportion of people with disease who will have a positive result. If we apply a test to a hypothetical population (10 ppl have disease out of 100), and 8 of the 10 people with Disease A test positive, then the sensitivity of the test is 8/10 or 80%.
+Sensitivity measures the proportion of positives that are correctly identified as such (i.e. the percentage of sick people who are correctly identified as having the condition).
 
 ## Specificity
 
-The specificity of a test is the proportion of people without the disease who will have a negative result. 
+measures the proportion of negatives that are correctly identified as such (i.e., the percentage of healthy people who are correctly identified as not having the condition). It is also called the ```true negative rate```. 
 
 The code in this repositories computes this not only on the entire image, but also locally if the sub-regions are specified using xyz limits. 
 

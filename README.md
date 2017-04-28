@@ -1,4 +1,4 @@
-# Sensitiity and Specificity Analysis for 3D Imaging Data 
+# Sensitivity and Specificity Analysis for 3D Imaging Data 
 
 [VTK surface data](http://www.cacr.caltech.edu/~slombey/asci/vtk/vtk_formats.simple.html) is constructed from point (or vertex) and cells (or surface polygons). It can accomodate data in both points and cells. 
 
